@@ -344,3 +344,63 @@ section {
     }
 }
 /* end footer */
+
+/* Tablet (landscape) and smaller screens */
+@media (max-width: 1023px) {
+    header {
+        padding: 12px 20px;
+    }
+
+    .navigation a {
+        padding-left: 10px;
+    }
+
+    .title {
+        font-size: 1.8em;
+    }
+
+    section {
+        padding: 80px 20px;
+    }
+
+    .main h2 {
+        font-size: 1em;
+    }
+
+    .main h3 {
+        font-size: 1.6em;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Add more styles for smaller screens here */
+}
+
+/* Mobile (portrait) and smaller screens */
+@media (max-width: 641px) {
+    body {
+        font-size: 12px;
+    }
+
+    .main h2 {
+        font-size: 0.8em;
+    }
+
+    .main h3 {
+        font-size: 1.4em;
+    }
+
+    /* Add more styles for even smaller screens here */
+}
+
+/* Very small screens (such as smartwatches) */
+@media (max-width: 300px) {
+    body {
+        font-size: 10px;
+    }
+
+    /* Add more styles for very small screens here */
+}
